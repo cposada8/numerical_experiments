@@ -16,7 +16,7 @@ def get_biggest(num):
 def kaprekar_4_cifras(num):
     
     num_iters = 0
-    for i in range(10):
+    for _ in range(10):
         big, low = get_biggest(num)
         substraction = big-low
         #print(i, substraction)
